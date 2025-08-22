@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@layer base {
+    * {
+        font-family: 'Roboto', sans-serif !important;
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+
+    body {
+        font-family: 'Roboto', sans-serif !important;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        background: var(--color-main);
+    }
+    input[type='number']::-webkit-inner-spin-button,
+    input[type='number']::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+    input[type='number'] {
+        -moz-appearance: textfield;
+    }
+}
+
+@theme {
+    --font-sans: 'Roboto', sans-serif;
+    --color-main: #131722;
+    --color-border-main: #2a2e39;
+    --color-text-white: #ffffff;
+
+}
+
